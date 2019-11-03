@@ -1,0 +1,236 @@
+/*TO DO
+- responsywnosc
+- wspieranie przegladarek
+- wyrownanie topornych elementow
+- ostateczne wybranie zdjec
+- paddingi, marginesy
+- pading/margin w seasons
+- sekcja about sie rozwala przy small screen 
+- posprzatac kod
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+}
+
+.section {
+    padding: 5rem 0;
+}
+
+/*typography*/
+h1 {
+    font-family: "Kalam", sans-serif;
+}
+
+.section h2 {
+    color: rgb(41, 115, 115);
+}
+
+h2,
+h3,
+h4,
+h5,
+p,
+li {
+    font-family: "Muli", sans-serif;
+}
+
+/*navbar*/
+.navbar {
+    background-color: rgb(240, 240, 240);
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    font-family: "Muli", sans-serif;
+    font-weight: bold;
+}
+.navbar a:hover {
+    color: rgb(41, 115, 115);
+}
+
+/*intro */
+.intro {
+    height: 100vh;
+    background-image: url("images/background.JPG");
+    background-size: cover;
+}
+
+.intro h1 {
+    color: rgb(240, 240, 240);
+    padding-top: 2rem;
+}
+
+.ityped {
+    color: rgb(240, 240, 240);
+    font-size: 2rem;
+    font-family: "Kalam", sans-serif;
+    font-weight: light;
+}
+
+.face {
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.face img {
+    max-width: 200px;
+}
+
+/*about */
+.about-photo {
+    max-width: 250px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.about-photo:hover {
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
+}
+
+.trails-list {
+    list-style: none;
+    padding: 0;
+}
+
+.trails-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+}
+
+.trails-list li:before {
+    position: absolute;
+    content: "\f004";
+    color: rgb(237, 106, 90);
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.5rem; /* same as padding-left set on li */
+    width: 1.5rem; /* same as padding-left set on li */
+}
+
+.progress-bar {
+    background-color: rgb(41, 115, 115);
+}
+
+/* seasons */
+.section.seasons {
+    background-color: rgb(240, 240, 240);
+}
+
+.seasons-heading {
+    margin-bottom: 2.5rem;
+}
+
+.img-box {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+/*wyswietlanie obrazkow nie dziala jak powinno jak zrobic zeby obrazek mógł byc dowolnego rozmiaru*/
+.img-box img {
+    display: block;
+    object-fit: cover;
+}
+
+.img-box .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    opacity: 0;
+    padding: 0.4rem;
+    text-align: center;
+    transition: all 0.8s ease-in-out;
+    box-shadow: none;
+}
+
+.img-box:hover .caption {
+    opacity: 1;
+}
+
+.img-box img:hover {
+    transform: scale(1.20);
+    transition: all 0.5s ease-in-out;
+}
+
+.img-box .caption h4 {
+    margin: 0;
+}
+
+/* numbers */
+.section.numbers {
+    background-color: rgb(240, 240, 240);
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icon-container i {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.icon i {
+    max-width: 100px;
+}
+
+.numbers i {
+   color: rgb(237, 106, 90);
+}
+
+.numbers i:hover {
+    color: rgb(41, 115, 115);
+}
+
+/*travelling-list*/
+.travelling-list h4 {
+    color: rgb(41, 115, 115);
+    padding-top: 1.5rem;
+}
+
+.done i,
+.to-do i {
+    color: rgb(237, 106, 90);;
+}
+
+/*footer*/
+footer {
+    background-color: rgb(240, 240, 240);
+    padding: 1.5rem 0;
+}
+
+.contact-icons a:not(:last-of-type) {
+    margin-right: 1rem;
+}
+
+footer div.row:not(:last-of-type) {
+    margin-bottom: 1.5rem;
+}
+
+.footer-heading {
+    margin: 0;
+    color: rgb(41, 115, 115);
+}
+
+footer a {
+    text-decoration: none;
+    color: black
+}
+
+footer a:hover {
+    color: rgb(41, 115, 115);
+    text-decoration: none;
+}
