@@ -1,44 +1,29 @@
 <!doctype html>
-<html lang="pl">
+<html lang="en">
 
 <head>
-    <!-- meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
+    <meta name="keywords" content="wanderlust, wandering, travel, explore">
+    <meta name="author" content="Ula Strojny">
     <link href="https://fonts.googleapis.com/css?family=Kalam:300,400,700|Muli:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Welcome to my world</title>
+    <title>Wanderlust</title>
     <script src="https://kit.fontawesome.com/94b6661118.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/ityped@1.0.3"></script>
 </head>
 
+<!-- NAVBAR -->
+
 <body data-spy="scroll" data-target="#main-nav">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="main-nav">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="#home">Home</a>
-                        <a class="nav-item nav-link" href="#about">About</a>
-                        <a class="nav-item nav-link" href="#countries">Countries</a>
-                        <a class="nav-item nav-link" href="#seasons">4 seasons</a>
-                        <a class="nav-item nav-link" href="#travelling-list">Travelling list</a>
-                  </div>
-                </div>
-              </nav>
-
-
-    <!--
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="main-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="#home">Home</a>
                 <a class="nav-item nav-link" href="#about">About</a>
@@ -48,15 +33,16 @@
             </div>
         </div>
     </nav>
-    -->
-    <!---------------------------------INTRO---------------------------------->
+
+    <!-- INTRO -->
+
     <div class="container-fluid section intro" id="home">
         <div class="row align-items-center h-100">
             <div class="col-sm-12 text-center">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="face">
-                            <img src="images/face.png">
+                            <img src="images/face.jpg" alt="Face image">
                         </div>
                     </div>
                 </div>
@@ -73,10 +59,12 @@
             </div>
         </div>
     </div>
-    <!---------------------------------ABOUT--------------------------------->
+
+    <!-- ABOUT -->
+
     <div class="container section about" id="about">
         <div class="row align-items-start justify-content-center h-100">
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <h2>About me</h2>
                 <p>I enjoy active lifestyle, mountains hiking, exploring new places - especially those less known. Every
                     free time I try to spend on the go - cycling, trekking in the mountains or on the water.</p>
@@ -84,10 +72,10 @@
                     During wanderings I can admire the beauty of nature: waterfalls, mountains, caves, spring, lakes,
                     seas... This is my world.</p>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-lg-4 text-center">
                 <img class="about-photo rounded" src="images/babia.jpg" alt="Picture of the author">
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <h2>Long-distance trails</h2>
                 <ul class="trails-list">
                     <li>Spain: Camino del Norte - 800 km<br>
@@ -118,9 +106,10 @@
             </div>
         </div>
     </div>
-    <!---------------------------------NUMBERS--------------------------------->
-    <!--jaka dac wartosc col jezeli chce 5 kolumn? offset zaburza przy zmniejszaniu:(-->
-    <div class="section numbers"> 
+
+    <!--  NUMBERS -->
+
+    <div class="section numbers">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-2 offset-md-1 d-flex icon-container">
@@ -146,8 +135,9 @@
             </div>
         </div>
     </div>
-    </div>
-    <!---------------------------------COUNTRIES--------------------------------->
+
+    <!-- COUNTRIES -->
+
     <div class="section carousel container" id="countries">
         <div class="row d-flex justify-content-center">
             <div class="col-12 text-center">
@@ -155,7 +145,6 @@
                     <h2 class="countries-heading">Visited countries</h2>
                 </div>
             </div>
-
             <div class="col-md-8 text-center">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
                     <div class="carousel-inner">
@@ -205,7 +194,7 @@
                             <img class="d-block w-100" src="images/germany.jpg" alt="Germany - slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Germany</h5>
-                                <p>Cycling in Saxony</p>
+                                <p>Saxony is a great place for cycling</p>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -213,6 +202,20 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Netherlands</h5>
                                 <p>A land of bicycles and windmills</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/croatia.jpg" alt="Croatia - slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Croatia</h5>
+                                <p>Stunning views of the canyon</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/montenegro.jpg" alt="Montenegro - slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Montenegro</h5>
+                                <p>Durmitor National Park</p>
                             </div>
                         </div>
                     </div>
@@ -227,9 +230,10 @@
                 </div>
             </div>
         </div>
-
     </div>
-    <!---------------------------------SEASONS--------------------------------->
+
+    <!--  SEASONS -->
+
     <div class="section seasons" id="seasons">
         <div class="container">
             <div class="row">
@@ -242,7 +246,7 @@
             <div class="row">
                 <div class="col col-md-6 col-lg-3 d-flex justify-content-center">
                     <div class="img-box rounded">
-                        <img src="images/spring.png">
+                        <img src="images/spring.jpg" alt="spring">
                         <div class="caption">
                             <h4>Spring</h4>
                         </div>
@@ -250,7 +254,7 @@
                 </div>
                 <div class="col col-md-6 col-lg-3 d-flex justify-content-center">
                     <div class="img-box rounded">
-                        <img src="images/summer.png">
+                        <img src="images/summer.jpg" alt="summer">
                         <div class="caption">
                             <h4>Summer</h4>
                         </div>
@@ -258,7 +262,7 @@
                 </div>
                 <div class="col col-md-6 col-lg-3 d-flex justify-content-center">
                     <div class="img-box rounded">
-                        <img src="images/autumn.png">
+                        <img src="images/autumn.jpg" alt="autumn">
                         <div class="caption">
                             <h4>Autumn</h4>
                         </div>
@@ -266,7 +270,7 @@
                 </div>
                 <div class="col col-md-6 col-lg-3 d-flex justify-content-center">
                     <div class="img-box rounded">
-                        <img src="images/winter.png">
+                        <img src="images/winter.jpg" alt="winter">
                         <div class="caption">
                             <h4>Winter</h4>
                         </div>
@@ -275,8 +279,9 @@
             </div>
         </div>
     </div>
-    <!---------------------------------LIST--------------------------------->
-    <!--ZLE WYSRODKOWANIE!!-->
+
+    <!--  LIST  -->
+
     <div class="container section travelling-list" id="travelling-list">
         <div class="row align-items-center">
             <div class="col-12 text-center">
@@ -286,29 +291,33 @@
             </div>
             <div class="col-12">
                 <div class="row d-flex align-items-start justify-content-center">
-                    <div class="col-md-6 d-flex justify-content-center">
+                    <div class="col-md-6 d-flex flex-column align-items-center">
+                        <h4>Done</h4>
                         <ul class="fa-ul done">
-                            <h4>Done</h4>
                             <li><span class="fa-li"><i class="far fa-check-square"></i></span>Cross-country skiing in
                                 Slovakia
                             </li>
-                            <li><span class="fa-li"><i class="far fa-check-square"></i></span>Camino di Assisi, 350+ km walk
+                            <li><span class="fa-li"><i class="far fa-check-square"></i></span>Camino di Assisi, 350+ km
+                                walk
                                 from Florence to Assisi </li>
                             <li><span class="fa-li"><i class="far fa-check-square"></i></span>Yacht trip</li>
                             <li><span class="fa-li"><i class="far fa-check-square"></i></span>Rafting on Tara River</li>
                             <li><span class="fa-li"><i class="far fa-check-square"></i></span>See the northern lights in
                                 Iceland
                             </li>
-                            <li><span class="fa-li"><i class="far fa-check-square"></i></span>Camino de Santiago, 350+ km
+                            <li><span class="fa-li"><i class="far fa-check-square"></i></span>Camino de Santiago, 350+
+                                km
                                 walk
                                 in Spain</li>
-                            <li><span class="fa-li"><i class="far fa-check-square"></i></span>See doplhins at "The end of
+                            <li><span class="fa-li"><i class="far fa-check-square"></i></span>See doplhins at "The end
+                                of
                                 the world" - Finisterra</li>
                             <li><span class="fa-li"><i class="far fa-check-square"></i></span>Winter camping</li>
                             <li><span class="fa-li"><i class="far fa-check-square"></i></span>Visit the cave with
                                 underground lake
                             </li>
-                            <li><span class="fa-li"><i class="far fa-check-square"></i></span>Stand behind a waterfall</li>
+                            <li><span class="fa-li"><i class="far fa-check-square"></i></span>Stand behind a waterfall
+                            </li>
                             <li><span class="fa-li"><i class="far fa-check-square"></i></span>Eat pizza in Italy</li>
                             <li><span class="fa-li"><i class="far fa-check-square"></i></span>See volcanoes in Lanzarote
                                 Island
@@ -316,45 +325,49 @@
                             <li><span class="fa-li"><i class="far fa-check-square"></i></span>Visit Dracula Castle in
                                 Romania
                             </li>
-                            <li><span class="fa-li"><i class="far fa-check-square"></i></span>Swimming under waterfall in
+                            <li><span class="fa-li"><i class="far fa-check-square"></i></span>Swimming under waterfall
+                                in
                                 Bosnia</li>
-                            <li><span class="fa-li"><i class="far fa-check-square"></i></span>See bunkers in Albania</li>
+                            <li><span class="fa-li"><i class="far fa-check-square"></i></span>See bunkers in Albania
+                            </li>
                             <li><span class="fa-li"><i class="far fa-check-square"></i></span>Hitchhiking trip to the
                                 Balkans
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6 d-flex justify-content-center">
-                            <ul class="fa-ul to-do">
-                                <h4>To do</h4>
-                                <li><span class="fa-li"><i class="far fa-square"></i></span>Camino de Santiago from Poland
-                                    to
-                                    Spain (3000+ km)</li>
-                                <li><span class="fa-li"><i class="far fa-square"></i></span>Swimming inside the cave</li>
-                                <li><span class="fa-li"><i class="far fa-square"></i></span>Trekking in Georgia</li>
-                                <li><span class="fa-li"><i class="far fa-square"></i></span>Spend the night in quinzee or
-                                    igloo
-                                </li>
-                                <li><span class="fa-li"><i class="far fa-square"></i></span>Spend the night in the desert
-                                </li>
-                                <li><span class="fa-li"><i class="far fa-square"></i></span>Bornholm by bike</li>
-                                <li><span class="fa-li"><i class="far fa-square"></i></span>Cross-country skiing in Lapland
-                                </li>
-                                <li><span class="fa-li"><i class="far fa-square"></i></span>Cross-country skiing in Alps
-                                </li>
-                                <li><span class="fa-li"><i class="fas fa-spinner fa-pulse"></i></span>Get the Crown of
-                                    Polish Mountains (19/28)</li>
-                                <li><span class="fa-li"><i class="fas fa-spinner fa-pulse"></i></span>See all of the
-                                    Canary Islands (1/7)</li>
-                                <li><span class="fa-li"><i class="fas fa-spinner fa-pulse"></i></span>Main Beskids Trail
-                                    (250/500 km)</li>
-                            </ul>  
+                    <div class="col-md-6 d-flex flex-column align-items-center">
+                        <h4>To do</h4>
+                        <ul class="fa-ul to-do">
+                            <li><span class="fa-li"><i class="far fa-square"></i></span>Camino de Santiago from Poland
+                                to
+                                Spain (3000+ km)</li>
+                            <li><span class="fa-li"><i class="far fa-square"></i></span>Swimming inside the cave</li>
+                            <li><span class="fa-li"><i class="far fa-square"></i></span>Trekking in Georgia</li>
+                            <li><span class="fa-li"><i class="far fa-square"></i></span>Spend the night in quinzee or
+                                igloo
+                            </li>
+                            <li><span class="fa-li"><i class="far fa-square"></i></span>Spend the night in the desert
+                            </li>
+                            <li><span class="fa-li"><i class="far fa-square"></i></span>Bornholm by bike</li>
+                            <li><span class="fa-li"><i class="far fa-square"></i></span>Cross-country skiing in Lapland
+                            </li>
+                            <li><span class="fa-li"><i class="far fa-square"></i></span>Cross-country skiing in Alps
+                            </li>
+                            <li><span class="fa-li"><i class="fas fa-spinner fa-pulse"></i></span>Get the Crown of
+                                Polish Mountains (19/28)</li>
+                            <li><span class="fa-li"><i class="fas fa-spinner fa-pulse"></i></span>See all of the
+                                Canary Islands (1/7)</li>
+                            <li><span class="fa-li"><i class="fas fa-spinner fa-pulse"></i></span>Main Beskids Trail
+                                (250/500 km)</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!---------------------------------footer--------------------------------->
+
+    <!--  FOOTER  -->
+
     <footer>
         <div class="container">
             <div class="row">
@@ -382,6 +395,7 @@
             </div>
         </div>
     </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -393,6 +407,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <!-- iTyped for animated text -->
     <script>
         ityped.init('#ityped', {
             strings: ['Travel', 'Wander', 'Explore'],

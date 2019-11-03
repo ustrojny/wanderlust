@@ -1,0 +1,24 @@
+{
+  "name": "wonderlust",
+  "version": "1.0.0",
+  "description": "Website made for CodersCamp excercise.  Live demo available at: https://ustrojny.github.io/wanderlust/.",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "stylelint": "^11.1.1",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ustrojny/wanderlust.git"
+  },
+  "author": "Ula Strojny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ustrojny/wanderlust/issues"
+  },
+  "homepage": "https://github.com/ustrojny/wanderlust#readme"
+}
