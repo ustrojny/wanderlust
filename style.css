@@ -51,6 +51,9 @@ h2 {
     min-height: 100vh;
     background-image: url("images/background.jpg");
     background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
 }
 
 .intro h1 {
@@ -277,10 +280,18 @@ footer a:hover {
     .seasons .img-box {
         margin-bottom: 2rem;
     }
+
+    .intro {
+        padding-top: 5.5rem;
+    }
 }
 
 @media (max-width: 575px) {
     .section {
         padding: 1.5rem;
+    }
+
+    .intro {
+        padding-top: 4.5rem;
     }
 }
