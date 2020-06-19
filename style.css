@@ -218,6 +218,10 @@ h2 {
     color: rgb(41, 115, 115);
 }
 
+.finland h5, .finland p {
+    color: black;
+}
+
 .done i,
 .to-do i {
     color: rgb(237, 106, 90);
